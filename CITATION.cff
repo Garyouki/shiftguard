@@ -4,6 +4,7 @@ title: "Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents un
 type: software
 license: MIT
 version: "0.1.0"
+doi: "10.5281/zenodo.24430268"
 repository-code: "https://github.com/Garyouki/shiftguard"
 url: "https://arxiv.org/abs/2609.29522"
 authors:

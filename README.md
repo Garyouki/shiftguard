@@ -5,6 +5,7 @@
 [![CI](https://github.com/Garyouki/shiftguard/actions/workflows/ci.yml/badge.svg)](https://github.com/Garyouki/shiftguard/actions/workflows/ci.yml)
 [![arXiv](https://img.shields.io/badge/arXiv-2609.29522-b31b1b.svg)](https://arxiv.org/abs/2609.29522)
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97-shiftguard--trajectories-yellow)](https://huggingface.co/datasets/youkijiudai/shiftguard-trajectories)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24430268.svg)](https://doi.org/10.5281/zenodo.24430268)
 
 Paper: *Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents under Infrastructure State Races*. Zihao Zheng, Jiayu Long, Baichuan Li, Junyi Yao. [arXiv:2609.29522](https://arxiv.org/abs/2609.29522).
 
