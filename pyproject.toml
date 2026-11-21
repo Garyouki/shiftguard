@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shiftguard"
+version = "0.1.0"
+description = "Deterministic simulator and commit-time guards for tool-using LLM agents under infrastructure state races."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  { name = "Zihao Zheng" },
+  { name = "Jiayu Long" },
+  { name = "Baichuan Li" },
+  { name = "Junyi Yao" },
+]
+keywords = ["llm-agents", "tool-use", "runtime-verification", "guardrails", "evaluation"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.optional-dependencies]
+analysis = ["matplotlib>=3.8", "numpy>=1.26", "scikit-learn>=1.4", "scipy>=1.11"]
+data = ["huggingface_hub>=0.23"]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2609.29522"
+Dataset = "https://huggingface.co/datasets/youkijiudai/shiftguard-trajectories"
+Source = "https://github.com/Garyouki/shiftguard"
+
+[tool.setuptools.packages.find]
+where = ["src"]
