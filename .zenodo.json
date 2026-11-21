@@ -1,0 +1,36 @@
+{
+  "title": "shiftguard: Deterministic simulator and commit-time guards for tool-using LLM agents under infrastructure state races",
+  "upload_type": "software",
+  "description": "Deterministic simulator and commit-time guards for tool-using LLM agents under infrastructure state races. Source code: https://github.com/Garyouki/shiftguard",
+  "creators": [
+    {
+      "name": "Zheng, Zihao"
+    },
+    {
+      "name": "Long, Jiayu"
+    },
+    {
+      "name": "Li, Baichuan"
+    },
+    {
+      "name": "Yao, Junyi"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "llm-agents",
+    "tool-use",
+    "runtime-verification",
+    "guardrails",
+    "evaluation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.48550/arXiv.2609.29522",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    }
+  ]
+}
