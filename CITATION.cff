@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Please cite the paper when using this research artifact."
-title: "Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents under Infrastructure State Races"
+title: "Stale Does Not Mean Unsafe: Measuring Commit-Guard Precision for Tool-Using LLM Agents in Simulated and Transactional Infrastructure"
 type: software
 license: MIT
 version: "0.1.0"
@@ -18,7 +18,7 @@ authors:
     given-names: "Junyi"
 preferred-citation:
   type: article
-  title: "Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents under Infrastructure State Races"
+  title: "Stale Does Not Mean Unsafe: Measuring Commit-Guard Precision for Tool-Using LLM Agents in Simulated and Transactional Infrastructure"
   journal: "arXiv preprint arXiv:2609.29522"
   year: 2026
   doi: "10.48550/arXiv.2609.29522"
