@@ -7,7 +7,9 @@
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97-shiftguard--trajectories-yellow)](https://huggingface.co/datasets/youkijiudai/shiftguard-trajectories)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24430268.svg)](https://doi.org/10.5281/zenodo.24430268)
 
-Paper: *Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents under Infrastructure State Races*. Zihao Zheng, Jiayu Long, Baichuan Li, Junyi Yao. [arXiv:2609.29522](https://arxiv.org/abs/2609.29522).
+Paper: *Stale Does Not Mean Unsafe: Measuring Commit-Guard Precision for Tool-Using LLM Agents in Simulated and Transactional Infrastructure*. Zihao Zheng, Jiayu Long, Baichuan Li, Junyi Yao. [arXiv:2609.29522](https://arxiv.org/abs/2609.29522).
+
+The paper's v2 adds a PostgreSQL testbed and compares version tokens supplied by the agent with tokens held by the runtime. A small offline evaluation of those commit-guard cases is available as [agent-commit-evals](https://github.com/Garyouki/agent-commit-evals) (`pip install agent-commit-evals`).
 
 ## Why
 
@@ -87,7 +89,7 @@ The simulator and the normalized check costs are a controlled research setting. 
 
 ```bibtex
 @misc{zheng2026staledoesnotmeanunsafe,
-  title={Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents under Infrastructure State Races},
+  title={Stale Does Not Mean Unsafe: Measuring Commit-Guard Precision for Tool-Using LLM Agents in Simulated and Transactional Infrastructure},
   author={Zihao Zheng and Jiayu Long and Baichuan Li and Junyi Yao},
   year={2026},
   eprint={2609.29522},
